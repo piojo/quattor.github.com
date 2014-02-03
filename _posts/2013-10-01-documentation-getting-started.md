@@ -22,8 +22,8 @@ the client machine.
 Prerequisities
 --------------
 
-There are some prerequisites to complete this tutorial.  For hardware,
-you will need:
+There are some prerequisites to complete this tutorial.  As far as
+hosts go you will need:
 
 * One machine to act as the Aquilon server.  This machine should be
   running a minimal, updated version of a RHEL 6 (or compatible).
@@ -43,22 +43,12 @@ You will also need some basic information about these machines:
 The access to the external repositories are critical to allow the
 Quattor software to be installed easily on the tutorial machines.
 
-Installing Aquilon
+Initialising Aquilon
 ------------------
 
-Add Aquilon yum repository to the machine.  Do the following install:
-
-    $ yum install http://yum.quattor.org/aquilon/repo.rpm
-
-Then afterwards, install the server with:
-
-    $ yum install aquilon-server
-
-To start the server, just do the following:
-
-    $ service aqd start
-
-Voila!  You have a working Aquilon service.
+For installing and getting started with Aquilon, you'll need to check
+[Aquilon's pre-requisites](/documentation/2012/10/31/aquilon-prerequisites.html), the
+[Aquilon installation guide](/documentation/2020-10-31-install-aquilon.html).
 
 Basic Site Configuration
 ------------------------
